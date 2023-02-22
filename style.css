@@ -1,0 +1,206 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;700&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+:root{
+--balck:#191826;
+--white:#FCFAF9;
+}
+
+body{
+    font-family: 'IBM Plex Sans', sans-serif;
+    width: 100%;
+    height: 100vh;
+    background-color: var(--white);
+    background-image: url(./assets/bg-main-mobile.png);
+    background-repeat: no-repeat;
+    background-position: 0 -200px
+}
+
+header{
+    padding: 40px 0 0 25px;
+    margin-bottom: 64px;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+}
+
+.main-container{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding:0 24px;
+}
+
+.title{
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: -0.45px;
+    text-align: left;
+}
+
+.description{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: left;
+    margin-bottom: 166px ;
+}
+
+.photo-container{
+    background-color: var(--balck);
+    position: relative;
+    height: 600px;
+    background-image: url(./assets/bg-pattern-2.svg);
+    background-repeat: no-repeat;
+    background-position:50% 0% ;
+    background-size: 280px 420px;
+    border-radius: 12px;
+}
+
+
+.phone img{
+    width: 209px;
+    height: 430px;
+    position: absolute;
+    top: -95px;
+    right: 80px;
+}
+
+.premium{
+    display: flex;
+    flex-direction: column;
+    background-color: hsla(12, 94%, 65%, 1);
+    width: 100%;
+    padding: 48px;
+    position: absolute;
+    top: 380px;
+    border-radius: 12px;
+}
+
+.premium-header{
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 40px;
+    text-align: left;
+    color: var(--white);
+}
+
+.premium-description{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: left;
+    color: var(--white);
+}
+
+span{
+    display: flex;
+    gap: 16px;
+    margin: 36px 0 32px;
+    align-items: center;
+}
+
+.price{
+    font-size: 65px;
+    font-weight: 700;
+    line-height: 52px;
+    text-align: left;  
+    color: var(--white);
+}
+
+.duration{
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: -0.2px;
+    text-align: left;
+    color: var(--white);
+}
+
+button{
+    width: 296px;
+    height: 61px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    border-radius: 12px;
+    border: none;
+}
+
+.ios{
+    background-color: var(--balck);
+    margin-bottom: 16px;
+}
+
+.ios h3{
+    color: var(--white);
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 32px;
+    letter-spacing: -0.18x;
+    text-align: center;
+}
+
+.android{
+    background-color: var(--white);
+}
+
+.android h3{
+    color: var(--balck);
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 32px;
+    letter-spacing: -0.18x;
+    text-align: center;
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    margin-top: 390px;
+    padding: 0 24px 80px;
+}
+
+.footer-logo{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    margin-bottom: 66px;
+}
+
+.footer-description{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: left;
+    color: var(--balck);
+    width: 327px;
+    height: 105px;
+}
+
+strong{
+    font-weight: 700;
+}
+
+.footer-logo img{
+    width: 146px;
+    height: 32px;
+}
+
+.icons{
+    display: flex;
+    gap: 20px;
+}
+
+/* რესპონსივზე */
+/* br{
+    display: none;
+} */
+
