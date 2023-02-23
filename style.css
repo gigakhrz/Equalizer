@@ -199,8 +199,85 @@ strong{
     gap: 20px;
 }
 
-/* რესპონსივზე */
-/* br{
-    display: none;
-} */
 
+@media screen and (min-width: 768px) {
+
+    body{
+        background-position: top -110px right 40px, top -40px right -30px;
+        background-image:url(./assets/bg-main-tablet.png), url(./assets/bg-pattern-1.svg);
+        background-repeat: no-repeat;
+        background-size: 980px 800px, 266px 400px;
+        padding: 0 33px 0 39px;
+    }
+
+
+    header{
+        padding: 62px 0 0 0px;
+    }
+
+    .main-container{
+        max-width: 570px;
+        padding: 0;
+    }
+
+    .title{
+        font-size: 64px;
+        font-weight: 700;
+        line-height: 64px;
+        letter-spacing: -0.7px;
+        text-align: left;
+    }
+
+    .description{
+        font-size: 18px;
+        line-height: 28px;
+    }
+
+    .photo-container{
+        background-position: 50% -20%;
+    }
+
+    .phone img{
+        width: 270px;
+        height: 556px;
+        left: 80px;
+        top: -138px;
+    }
+
+    .premium{
+        max-width: 400px;
+        right: 110px;
+        top: 150px;
+    }
+
+    footer{
+        margin-top: 183px;
+        flex-direction: row;
+        padding: 0 0 85px;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .footer-logo{
+        margin-bottom: 0px;
+    }
+
+    .footer-description{
+        font-size: 16px;
+        line-height: 26px;
+    }
+
+    br{
+    display: none;
+    } 
+   
+}   
+
+@media screen and (min-width: 1400px) {
+     body{
+        background-image: url(./assets/bg-main-desktop.png), url(./assets/bg-pattern-1.svg);
+        background-position: top -50px right 150px, top -40px right 0px;
+        background-size: 100% 100%, 266px 400px;
+     }
+        
+}
